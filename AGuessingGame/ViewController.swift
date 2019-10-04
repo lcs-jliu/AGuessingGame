@@ -10,17 +10,17 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController {
-
+    
+    //MARK: Properties
+    let targetNumbet = Int.random(in: 1...100)
+    @IBOutlet weak var submittedGuess: UITextField!
+    
+    //MARK: Initializers
+    
+    //MARK: Methods (funtions) - behaviours
+    
+    //Runs as soon as the view becomes visible to the user
     override func viewDidLoad() {
-        
-        //MARK: Properties
-        let targetNumbet = Int.random(in: 1...100)
-        
-        //MARK: Initializers
-        
-        //MARK: Methods (funtions) - behaviours
-        
-        //Runs as soon as the view becomes visible to the user
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
